@@ -14,16 +14,6 @@ const HeroSection = () => {
     setIsModalOpen(false);
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const formData = new FormData(e.target);
-  //   const data = Object.fromEntries(formData.entries());
-  //   console.log("Form Data:", data);
-
-  //   // Add your form submission logic here
-
-  //   handleCloseModal();
-  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
