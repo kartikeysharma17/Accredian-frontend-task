@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,9 +25,18 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
+
+.hero-bg{
+  background-image: url("/src/assets/images/heroimg.png");
+  object-fit: cover;
+  height: 100;
+  width: 100;
+}
+
 
 @keyframes App-logo-spin {
   from {
