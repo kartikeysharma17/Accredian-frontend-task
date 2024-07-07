@@ -24,7 +24,7 @@ const HeroSection = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:8000/api/refferal-detail",
+        "https://accredian-backend-task-58c1.onrender.com/api/refferal-detail",
         {
           method: "POST",
           headers: {
